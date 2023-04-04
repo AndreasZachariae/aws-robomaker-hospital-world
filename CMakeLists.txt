@@ -17,7 +17,7 @@ find_package(gazebo_ros REQUIRED)
 # Install
 ################################################################################
 
-install(DIRECTORY launch models fuel_models worlds
+install(DIRECTORY launch models fuel_models worlds maps
 	DESTINATION share/${PROJECT_NAME}
 )
 

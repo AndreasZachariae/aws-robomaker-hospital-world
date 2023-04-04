@@ -17,9 +17,9 @@ find_package(gazebo_ros REQUIRED)
 # Install
 ################################################################################
 
-# install(DIRECTORY launch models fuel_models worlds
-# 	DESTINATION share/${PROJECT_NAME}
-# )
+install(DIRECTORY launch models fuel_models worlds
+	DESTINATION share/${PROJECT_NAME}
+)
 
 ament_export_dependencies(ament_cmake)
 ament_export_dependencies(gazebo_ros)

@@ -19,6 +19,10 @@
       <uri>model://ground_plane</uri>
       <pose>0 0 -0.1 0 -0 0</pose>
     </include>
+    <include>
+      <uri>model://turtlebot3_waffle</uri>
+      <pose>2 2 0 0 0 0</pose>
+    </include>
     <model name="aws_robomaker_hospital_floor_01_floor_1">
       <include>
         <uri>model://aws_robomaker_hospital_floor_01_floor</uri>
